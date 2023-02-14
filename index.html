@@ -5,6 +5,7 @@ title: frontpage
 {% assign test_variable = "test" %}
 <html>
 	<body>
+		<h1>{{ page.name }}</h1>
 		{% include menu.html parent_title=page.name %}
 		<h2>{{ test_variable }}</h2>
 	</body>
